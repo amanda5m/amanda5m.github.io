@@ -1,0 +1,14 @@
+$grid: 12;
+$colors:(
+    primary: #011,
+    secondary: #666,
+    dark: #000,
+    light: #eee,
+);
+$breakpoints:(
+    sm: 480px,
+    md: 768px,
+    lg: 960px,
+    xl: 1200px,
+    );
+$positions: relative absolute fixed;

@@ -1,0 +1,59 @@
+footer{
+    .col-sm-12{
+        padding-top: 0;
+    }
+}
+footer{
+    width: 100%;
+    background-color: #000;
+    color: #eee;
+    li{
+        float: left;
+        padding: 15px;
+        width: 50%;
+    }
+    ul{
+        border-bottom: 1px solid #fff;
+    }
+}
+footer a{
+    color: #eee;
+}
+@media screen and (min-width:768px){
+    footer{
+        li{
+            width: auto;
+        }
+    }
+}
+nav{
+    widows: 100%;
+    background-color: #655;
+}
+nav .fixed-width{
+    line-height: 60px;
+    margin: 0 auto;
+}
+nav a{
+    display: block;
+    color: #eed;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 60px;
+}
+nav .logo{
+    float: left;
+}
+nav .menu{
+    float: left;
+}
+nav .menu ul li{
+    float: left;
+}
+nav .search{
+    float: left;
+}
+nav a:hover{
+    background-color: #999;
+    color: #000
+}
